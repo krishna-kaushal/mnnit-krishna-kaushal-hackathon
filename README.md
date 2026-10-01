@@ -42,7 +42,7 @@ The whole pipeline runs on commodity hardware with **zero model downloads**: lig
 Runtime: **Python 3.10+**.
 
 ```bash
-git clone <repo-url>          # TODO: replace with the public repo URL
+git clone https://github.com/krishna-kaushal/mnnit-krishna-kaushal-hackathon.git
 cd crisil-hackathon
 pip install -r requirements.txt
 
