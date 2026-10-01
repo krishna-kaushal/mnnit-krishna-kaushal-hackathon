@@ -1,0 +1,38 @@
+# Sentinel — AI/NLP Risk Engine
+# S&P Global & Crisil Campus Hackathon 2026
+#
+# Install:  pip install -r requirements.txt
+# Runtime:  Python 3.10+
+#
+# Everything below this line is REQUIRED for the full pipeline.
+# (Loose pins so fresh installs keep working.)
+
+fastapi>=0.100
+uvicorn[standard]>=0.20
+streamlit>=1.28
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2
+plotly>=5.15
+matplotlib>=3.6
+python-pptx>=0.6.21
+transformers>=4.30
+vaderSentiment>=3.3
+requests>=2.28
+python-dateutil>=2.8
+
+# ---------------------------------------------------------------------------
+# OPTIONAL: real Hugging Face model backends (NOT required)
+# ---------------------------------------------------------------------------
+# The pipeline runs FULLY without torch or any model downloads — it uses
+# lightweight fallback backends instead:
+#   * sentiment      -> VADER-style lexicon scoring (vaderSentiment)
+#   * event classify -> keyword/heuristic zero-shot-style classifier
+#   * impact score   -> deterministic magnitude x novelty x credibility
+#
+# To enable the real models (FinBERT sentiment + zero-shot event
+# classification via `transformers`):
+#   1. pip install torch --index-url https://download.pytorch.org/whl/cpu
+#      (CPU wheel; use the CUDA build instead if you have a GPU)
+#   2. export RISK_ENGINE_BACKEND=hf
+# First run will download the model weights from Hugging Face (~400 MB).

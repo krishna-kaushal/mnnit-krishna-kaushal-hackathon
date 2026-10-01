@@ -1,0 +1,250 @@
+{
+  "trigger": {
+    "signal_id": null,
+    "event_class": "Geopolitical",
+    "impact": 9,
+    "timestamp": "2026-10-01T06:31:00+00:00"
+  },
+  "portfolio_value_before": 3015.5,
+  "portfolio_value_after": 2222.91,
+  "total_loss": 792.59,
+  "loss_pct": 26.28,
+  "attribution": [
+    {
+      "asset_class": "bond",
+      "before": 1267.6,
+      "after": 818.13,
+      "loss": 449.47
+    },
+    {
+      "asset_class": "derivative",
+      "before": 715.1,
+      "after": 632.7,
+      "loss": 82.4
+    },
+    {
+      "asset_class": "loan",
+      "before": 1032.8,
+      "after": 772.09,
+      "loss": 260.71
+    }
+  ],
+  "shocks_applied": {
+    "equity": -0.1,
+    "rates": 0.02,
+    "credit_spread": 0.015
+  },
+  "positions": [
+    {
+      "id": "L01",
+      "type": "loan",
+      "notional": 93.4,
+      "loss": 23.42,
+      "value_after": 69.98
+    },
+    {
+      "id": "L02",
+      "type": "loan",
+      "notional": 154.6,
+      "loss": 61.34,
+      "value_after": 93.26
+    },
+    {
+      "id": "L03",
+      "type": "loan",
+      "notional": 80.5,
+      "loss": 14.71,
+      "value_after": 65.79
+    },
+    {
+      "id": "L04",
+      "type": "loan",
+      "notional": 53.2,
+      "loss": 9.5,
+      "value_after": 43.7
+    },
+    {
+      "id": "L05",
+      "type": "loan",
+      "notional": 130.0,
+      "loss": 27.76,
+      "value_after": 102.25
+    },
+    {
+      "id": "L06",
+      "type": "loan",
+      "notional": 157.9,
+      "loss": 31.3,
+      "value_after": 126.6
+    },
+    {
+      "id": "L07",
+      "type": "loan",
+      "notional": 39.3,
+      "loss": 4.97,
+      "value_after": 34.33
+    },
+    {
+      "id": "L08",
+      "type": "loan",
+      "notional": 80.4,
+      "loss": 12.3,
+      "value_after": 68.1
+    },
+    {
+      "id": "L09",
+      "type": "loan",
+      "notional": 100.4,
+      "loss": 11.09,
+      "value_after": 89.31
+    },
+    {
+      "id": "L10",
+      "type": "loan",
+      "notional": 143.1,
+      "loss": 64.32,
+      "value_after": 78.78
+    },
+    {
+      "id": "B01",
+      "type": "bond",
+      "notional": 83.6,
+      "loss": 43.7,
+      "value_after": 39.9
+    },
+    {
+      "id": "B02",
+      "type": "bond",
+      "notional": 11.4,
+      "loss": 2.49,
+      "value_after": 8.91
+    },
+    {
+      "id": "B03",
+      "type": "bond",
+      "notional": 158.3,
+      "loss": 73.33,
+      "value_after": 84.97
+    },
+    {
+      "id": "B04",
+      "type": "bond",
+      "notional": 137.0,
+      "loss": 15.14,
+      "value_after": 121.86
+    },
+    {
+      "id": "B05",
+      "type": "bond",
+      "notional": 130.6,
+      "loss": 64.94,
+      "value_after": 65.66
+    },
+    {
+      "id": "B06",
+      "type": "bond",
+      "notional": 93.0,
+      "loss": 4.56,
+      "value_after": 88.44
+    },
+    {
+      "id": "B07",
+      "type": "bond",
+      "notional": 54.4,
+      "loss": 24.56,
+      "value_after": 29.84
+    },
+    {
+      "id": "B08",
+      "type": "bond",
+      "notional": 115.8,
+      "loss": 68.58,
+      "value_after": 47.22
+    },
+    {
+      "id": "B09",
+      "type": "bond",
+      "notional": 164.7,
+      "loss": 30.35,
+      "value_after": 134.35
+    },
+    {
+      "id": "B10",
+      "type": "bond",
+      "notional": 97.8,
+      "loss": 33.11,
+      "value_after": 64.69
+    },
+    {
+      "id": "B11",
+      "type": "bond",
+      "notional": 142.3,
+      "loss": 15.44,
+      "value_after": 126.86
+    },
+    {
+      "id": "B12",
+      "type": "bond",
+      "notional": 78.7,
+      "loss": 73.27,
+      "value_after": 5.43
+    },
+    {
+      "id": "D-EQ01",
+      "type": "derivative",
+      "notional": 115.8,
+      "loss": 11.58,
+      "value_after": 104.22
+    },
+    {
+      "id": "D-EQ02",
+      "type": "derivative",
+      "notional": 87.0,
+      "loss": 8.7,
+      "value_after": 78.3
+    },
+    {
+      "id": "D-EQ03",
+      "type": "derivative",
+      "notional": 116.6,
+      "loss": 11.66,
+      "value_after": 104.94
+    },
+    {
+      "id": "D-EQ04",
+      "type": "derivative",
+      "notional": 88.9,
+      "loss": 8.89,
+      "value_after": 80.01
+    },
+    {
+      "id": "D-IRS01",
+      "type": "derivative",
+      "notional": 32.5,
+      "loss": 2.73,
+      "value_after": 29.77
+    },
+    {
+      "id": "D-IRS02",
+      "type": "derivative",
+      "notional": 59.8,
+      "loss": 4.31,
+      "value_after": 55.49
+    },
+    {
+      "id": "D-IRS03",
+      "type": "derivative",
+      "notional": 118.6,
+      "loss": 21.11,
+      "value_after": 97.49
+    },
+    {
+      "id": "D-IRS04",
+      "type": "derivative",
+      "notional": 95.9,
+      "loss": 13.43,
+      "value_after": 82.47
+    }
+  ],
+  "notes": "simplified illustrative model"
+}

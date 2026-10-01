@@ -1,0 +1,46 @@
+{
+  "universe": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "META",
+    "GOOGL",
+    "AVGO",
+    "TSLA",
+    "JPM",
+    "V",
+    "XOM",
+    "UNH",
+    "MA",
+    "PG",
+    "HD"
+  ],
+  "params": {
+    "k": 2.0,
+    "lookback_days": 5,
+    "rebalance": "daily"
+  },
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-10-01"
+  },
+  "data_source": "yfinance",
+  "signals_used": true,
+  "n_signals": 35,
+  "metrics": {
+    "strategy": {
+      "cumulative_return": 0.17933155343205898,
+      "sharpe": 2.6646018203726314,
+      "max_drawdown": 0.05428593047015875,
+      "turnover": 0.8280024600025857
+    },
+    "baseline": {
+      "cumulative_return": 0.1802152131866197,
+      "sharpe": 2.6764854112580676,
+      "max_drawdown": 0.05428593047015876,
+      "turnover": 0.0
+    }
+  },
+  "notes": "Daily rebalance at close; per ticker s_i = mean sentiment over trailing 5 calendar days (0 if none), r_i = clip(1 + 2.0*s_i, 0, 2), w_i = r_i / sum(r); long-only, fully invested, no transaction costs. Signal sentiment assumed on a [-1, 1] scale. Turnover = mean_t(sum|w_t - w_{t-1}|/2) * 252. Baseline is equal-weight, daily rebalanced."
+}

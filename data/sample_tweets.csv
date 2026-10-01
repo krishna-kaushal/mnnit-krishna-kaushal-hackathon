@@ -1,0 +1,41 @@
+id,timestamp,text,ticker,event_hint,data_origin
+t001,2026-10-01T08:12:00Z,New US tariffs on imported chips could hit Apple supply chain costs hard,AAPL,Geopolitical,synthetic
+t002,2026-10-01T07:45:00Z,Washington weighs fresh export bans on advanced AI chips affecting Nvidia sales to China,NVDA,Geopolitical,synthetic
+t003,2026-10-01T07:20:00Z,EU sanctions package targets Russian energy revenues pressuring Exxon Mobil crude outlook,XOM,Geopolitical,synthetic
+t004,2026-10-01T06:58:00Z,Taiwan strait tensions rattle Broadcom investors as chip supply fears grow,AVGO,Geopolitical,synthetic
+t005,2026-10-01T06:31:00Z,Trade war escalation fears drag Tesla shares as auto tariffs loom,TSLA,Geopolitical,synthetic
+t006,2026-10-01T06:02:00Z,Middle East conflict sparks oil price spike lifting Exxon Mobil,XOM,Geopolitical,synthetic
+t007,2026-10-01T05:44:00Z,China retaliates with rare earth export curbs hitting Apple suppliers,AAPL,Geopolitical,synthetic
+t008,2026-10-01T05:15:00Z,Geopolitical risk premium rises as sanctions talk hits JPMorgan trading desks,JPM,Geopolitical,synthetic
+t009,2026-10-01T04:52:00Z,Hot CPI print revives Fed rate hike fears pressuring Microsoft valuation,MSFT,Macroeconomic,synthetic
+t010,2026-10-01T04:30:00Z,Recession odds climbing as unemployment ticks up says JPMorgan economist,JPM,Macroeconomic,synthetic
+t011,2026-10-01T04:11:00Z,Treasury yields surge on strong payrolls data weighing on Amazon,AMZN,Macroeconomic,synthetic
+t012,2026-10-01T03:48:00Z,Fed signals higher for longer crushing Home Depot housing demand hopes,HD,Macroeconomic,synthetic
+t013,2026-10-01T03:22:00Z,GDP growth slows sharply raising recession alarms for Visa spending volumes,V,Macroeconomic,synthetic
+t014,2026-10-01T02:59:00Z,Central bankers warn inflation fight not over hitting Mastercard outlook,MA,Macroeconomic,synthetic
+t015,2026-10-01T02:36:00Z,Interest rate shock sends growth stocks tumbling with Meta leading losses,META,Macroeconomic,synthetic
+t016,2026-10-01T02:14:00Z,Bond market selloff deepens pressuring Alphabet ad budgets,GOOGL,Macroeconomic,synthetic
+t017,2026-10-01T01:52:00Z,Moody's downgrades UnitedHealth outlook citing rising medical costs,UNH,Credit Event,synthetic
+t018,2026-10-01T01:30:00Z,Regional bank default fears resurface dragging JPMorgan lower,JPM,Credit Event,synthetic
+t019,2026-10-01T01:08:00Z,Credit rating cut slams Tesla bonds as debt load worries mount,TSLA,Credit Event,synthetic
+t020,2026-10-01T00:46:00Z,Corporate debt defaults hit record pace spooking Visa credit quality models,V,Credit Event,synthetic
+t021,2026-10-01T00:24:00Z,Bankruptcy filing by major supplier rattles Home Depot shares,HD,Credit Event,synthetic
+t022,2026-09-30T23:58:00Z,Liquidity crunch fears spread as junk bond spreads widen,JPM,Credit Event,synthetic
+t023,2026-09-30T23:31:00Z,Missed debt payment triggers restructuring talks at key Broadcom partner,AVGO,Credit Event,synthetic
+t024,2026-09-30T23:05:00Z,Credit event risk repriced across financials after downgrade wave,MA,Credit Event,synthetic
+t025,2026-09-30T22:42:00Z,Microsoft in talks to acquire AI startup for $4B in major expansion move,MSFT,Merger/Acquisition,synthetic
+t026,2026-09-30T22:18:00Z,Amazon announces acquisition of logistics firm to boost delivery network,AMZN,Merger/Acquisition,synthetic
+t027,2026-09-30T21:55:00Z,Broadcom bids for software maker in $8B takeover deal,AVGO,Merger/Acquisition,synthetic
+t028,2026-09-30T21:30:00Z,Meta acquires VR studio as metaverse bet deepens,META,Merger/Acquisition,synthetic
+t029,2026-09-30T21:06:00Z,JPMorgan merger with regional lender would create banking giant,JPM,Merger/Acquisition,synthetic
+t030,2026-09-30T20:44:00Z,Procter & Gamble spins off beauty unit in portfolio shakeup,PG,Merger/Acquisition,synthetic
+t031,2026-09-30T20:20:00Z,Takeover rumors swirl around UnitedHealth amid activist stake,UNH,Merger/Acquisition,synthetic
+t032,2026-09-30T19:58:00Z,Alphabet in acquisition talks with cybersecurity firm sources say,GOOGL,Merger/Acquisition,synthetic
+t033,2026-09-30T19:35:00Z,Apple unveils M5 MacBook Air with record preorder demand,AAPL,Product Launch,synthetic
+t034,2026-09-30T19:12:00Z,Nvidia launches next-gen Rubin AI chips to roaring demand,NVDA,Product Launch,synthetic
+t035,2026-09-30T18:50:00Z,Tesla debuts robotaxi fleet as Austin rollout begins,TSLA,Product Launch,synthetic
+t036,2026-09-30T18:28:00Z,Meta launches new Quest headset as VR sales rebound,META,Product Launch,synthetic
+t037,2026-09-30T18:05:00Z,Amazon unveils AI shopping assistant ahead of holidays,AMZN,Product Launch,synthetic
+t038,2026-09-30T17:42:00Z,Microsoft releases Copilot+ PCs with on-device AI,MSFT,Product Launch,synthetic
+t039,2026-09-30T17:20:00Z,Google debuts Pixel with on-device Gemini features,GOOGL,Product Launch,synthetic
+t040,2026-09-30T16:58:00Z,Visa launches instant settlement product for merchants,V,Product Launch,synthetic
